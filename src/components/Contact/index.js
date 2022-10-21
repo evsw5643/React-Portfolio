@@ -3,7 +3,7 @@ import Loader from "react-loaders"
 import AnimatedLetters from "../AnimatedLetters"
 import "./index.scss"
 import emailjs from "@emailjs/browser";
-import { MapContainer, TileLayer, useMap, Marker, Popup } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 
 
 const Contact = () => {
