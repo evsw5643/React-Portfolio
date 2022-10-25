@@ -14,13 +14,11 @@
         img {
             display: block;
             margin: 8px auto;
-            width: 24px;
+            width: 45px;
             height: auto;
-            &.sub-logo{
-                width: 50px;
-            }
         }
     }
+
     nav {
         display: block;
         text-align: center;
@@ -43,7 +41,7 @@
 
             }
 
-            &:hover{
+            &:hover {
                 color: #FBF8BE;
 
                 svg {
@@ -69,21 +67,24 @@
             }
 
             &:first-child {
-                &:after{
+                &:after {
                     content: "HOME";
                 }
             }
         }
+
         a.about-link {
-            &:after{
+            &:after {
                 content: "ABOUT";
             }
         }
+
         a.contact-link {
-            &:after{
+            &:after {
                 content: "CONTACT";
             }
         }
+
         a.active {
             svg {
                 color: #FBF8BE;
@@ -95,7 +96,7 @@
         position: absolute;
         bottom: 20px;
         width: 100%;
-        display:block;
+        display: block;
         padding: 0;
         list-style: none;
         text-align: center;
