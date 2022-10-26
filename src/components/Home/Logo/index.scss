@@ -12,22 +12,23 @@
     svg {
         width: 200%;
         height: auto;
+        left: 10%;
         bottom: 0;
     }
 
-    .solid-logo {
-        position: absolute;
-        width: 820;
-        height: 800;
-        scale: 1.12;
-        top: 6.2%;
-        bottom: auto;
-        left: 50px;
-        margin: auto;
-        width: 100%;
-        opacity: 0;
-        z-index: 1;
-    }
+    // .solid-logo {
+    //     position: absolute;
+    //     width: 820;
+    //     height: 800;
+    //     scale: 1.12;
+    //     top: 6.2%;
+    //     bottom: auto;
+    //     left: 10%;
+    //     margin: auto;
+    //     width: 100%;
+    //     opacity: 0;
+    //     z-index: 1;
+    // }
 }
 .svg-container {
     stroke: #fbf8be;

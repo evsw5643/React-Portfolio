@@ -9,7 +9,7 @@ const Logo = () => {
     const leftOutlineRef = useRef();
     const rightOutlineRef = useRef();
     const containerRef = useRef();
-    const solidLogoRef = useRef();
+    // const solidLogoRef = useRef();
 
 
 
@@ -40,23 +40,23 @@ const Logo = () => {
                 4
             )
 
-        gsap.fromTo(
-            solidLogoRef.current,
-            {
-                opacity: 0,
-            },
-            {
-                opacity: 1,
-                delay: 4,
-                duration: 2
-            },
-            6
-        )
+        // gsap.fromTo(
+        //     solidLogoRef.current,
+        //     {
+        //         opacity: 0,
+        //     },
+        //     {
+        //         opacity: 1,
+        //         delay: 4,
+        //         duration: 2
+        //     },
+        //     6
+        // )
     }, [])
 
     return (
         <div className='logo-container' ref={containerRef} >
-            <img ref={solidLogoRef} className='solid-logo' src={ESLogo} alt={"S"} />
+            {/* <img ref={solidLogoRef} className='solid-logo' src={ESLogo} alt={"S"} /> */}
             <svg
                 version="1.0"
                 xmlns="http://www.w3.org/2000/svg"
