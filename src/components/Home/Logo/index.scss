@@ -1,34 +1,38 @@
 .logo-container {
     z-index: 0;
-    width: 400px;
-    height: 609px;
+    width: 800px;
+    height: 800px;
     position: absolute;
-    top: 10%;
-    right: 20%;
-    bottom: 0;
+    right: 10%;
+    bottom: 10%;
     left: auto;
     margin: auto;
+    opacity: 0;
 
-    img {
-        width: 100%;
+    svg {
+        width: 200%;
         height: auto;
         bottom: 0;
-        transform: rotateZ(20deg) !important;
     }
 
     .solid-logo {
         position: absolute;
-        top: auto;
-        right: auto;
+        width: 820;
+        height: 800;
+        scale: 1.12;
+        top: 6.2%;
         bottom: auto;
-        left: 0;
+        left: 50px;
         margin: auto;
-        width: 120%;
-        opacity: 1;
-        transform: rotateZ(30deg);
+        width: 100%;
+        opacity: 0;
+        // transform: rotateZ(30deg);
         z-index: 1;
         // animation: fadeIn 1s forwards; //this is handles by the layout.scss '.container'
         // animation-delay: 4s;
     }
-    
+}
+.svg-container {
+    stroke: #fbf8be;
+    stroke-width: 10;
 }
