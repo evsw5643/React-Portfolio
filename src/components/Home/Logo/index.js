@@ -24,7 +24,7 @@ const Logo = () => {
                     drawSVG: "0%",
                 },
                 {  
-                    delay: 2.5,
+                    delay: 3,
                     duration: 20,
                     drawSVG: "100%",
                 }
@@ -50,7 +50,7 @@ const Logo = () => {
                 delay: 4,
                 duration: 2
             },
-            7
+            6
         )
     }, [])
 
