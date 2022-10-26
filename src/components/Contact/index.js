@@ -44,7 +44,7 @@ const Contact = () => {
                         />
                     </h1>
                     <p>
-                        I am interested in any opportunities that pay well.
+                        If you could use a self-motivated and curious mind like mine, please fill out the contact form and you will hear back shortly!
                     </p>
                     <div className="contact-form">
                         <form ref={formRef} onSubmit={sendEmail}>
