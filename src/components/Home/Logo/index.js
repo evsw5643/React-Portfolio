@@ -2,10 +2,7 @@ import './index.scss'
 import gsap from "gsap";
 import DrawSVGPlugin from 'gsap/DrawSVGPlugin';
 import ESLogo from '../../../assets/images/ESyellow.png';
-import ESLogoOutline from "../../../assets/images/ESLogoOutline.svg"
 import { useEffect, useRef } from "react";
-import { TimelineMax } from 'gsap/gsap-core';
-import { TimelineLite } from 'gsap/gsap-core';
 
 const Logo = () => {
 
